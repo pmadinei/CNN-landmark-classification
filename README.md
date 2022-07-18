@@ -8,6 +8,11 @@ If no location metadata for an image is available, one way to infer the location
 
 In this project, we will take the first steps towards addressing this problem by building models to automatically predict the location of the image based on any landmarks depicted in the image. We will go through the machine learning design process end-to-end: performing data preprocessing, designing and training CNNs, comparing the accuracy of different CNNs, and using our own images to heuristically evaluate our best CNN.
 
+- Examples from the landmarks dataset - a road in Death Valley, the Brooklyn Bridge, and the Eiffel Tower:
+
+![image](https://user-images.githubusercontent.com/45627032/179480845-e6a09d68-e3a7-4b38-af52-85387826a326.png)
+
+
 ## Project Steps
 The high level steps of the project include:
 
