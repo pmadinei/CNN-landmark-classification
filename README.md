@@ -1,6 +1,6 @@
 # CNN transfer learning and architecture design for landmark classification and tagging for social media
 
-In this project, we will apply Convolutional Neural Network (CNN) to build a landmark classifier.
+In this project, we applied Convolutional Neural Network (CNN) to build a landmark classifier.
 
 Photo sharing and photo storage services like to have location data for each photo that is uploaded. With the location data, these services can build advanced features, such as automatic suggestion of relevant tags or automatic photo organization, which help provide a compelling user experience. Although a photo's location can often be obtained by looking at the photo's metadata, many photos uploaded to these services will not have location metadata available. This can happen when, for example, the camera capturing the picture does not have GPS or if a photo's metadata is scrubbed due to privacy concerns.
 
@@ -8,6 +8,7 @@ If no location metadata for an image is available, one way to infer the location
 
 In this project, we will take the first steps towards addressing this problem by building models to automatically predict the location of the image based on any landmarks depicted in the image. We will go through the machine learning design process end-to-end: performing data preprocessing, designing and training CNNs, comparing the accuracy of different CNNs, and using our own images to heuristically evaluate our best CNN.
 
+## Dataset
 - Examples from the landmarks dataset - a road in Death Valley, the Brooklyn Bridge, and the Eiffel Tower:
 
 ![image](https://user-images.githubusercontent.com/45627032/179480845-e6a09d68-e3a7-4b38-af52-85387826a326.png)
@@ -21,5 +22,8 @@ The high level steps of the project include:
 * Create a CNN to Classify Landmarks (using Transfer Learning) - Next, we'll investigate different pre-trained models and decide on one to use for this classification task. Along with training and testing this transfer-learned network, we'll explain how we arrived at the pre-trained network we chose.
 
 * Write Our Landmark Prediction Algorithm - Finally, we will use our best model to create a simple interface for others to be able to use our model to find the most likely landmarks depicted in an image. We'll also test out our model ourselves and reflect on the strengths and weaknesses of our model.
+
+## Results
+Given the type of dataset, we achieved an accuracy of 71% on correctly classifying landmarks by using transfer learning on VGG16. 
 
 Good luck!
