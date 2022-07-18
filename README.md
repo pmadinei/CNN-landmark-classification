@@ -16,3 +16,5 @@ The high level steps of the project include:
 * Create a CNN to Classify Landmarks (using Transfer Learning) - Next, we'll investigate different pre-trained models and decide on one to use for this classification task. Along with training and testing this transfer-learned network, we'll explain how we arrived at the pre-trained network we chose.
 
 * Write Our Landmark Prediction Algorithm - Finally, we will use our best model to create a simple interface for others to be able to use our model to find the most likely landmarks depicted in an image. We'll also test out our model ourselves and reflect on the strengths and weaknesses of our model.
+
+Good luck!
